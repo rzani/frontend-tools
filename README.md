@@ -25,9 +25,9 @@ After building, the following executables will be available through the docker-i
 Clone this repository, change to the directory and build your docker-image:
 
 ```
-git clone git@github.com:webgefrickel/docker-frontend-tools.git
-cd docker-frontend-tools
-docker build -t docker-frontend-tools .
+git clone git@github.com:nicolaspio/frontend-tools.git
+cd frontend-tools
+docker build -t frontend-tools .
 ```
 
 This will take a while, depending on your system and internet connection.
