@@ -4,6 +4,8 @@
 FROM debian:jessie
 MAINTAINER Nicolas Pio <nicolaspiof@gmail.com>
 
+ENV DEBIAN_FRONTEND noninteractive
+
 # Install nodejs and npm
 RUN \
     apt-get update && \
