@@ -10,6 +10,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN \
     apt-get update && \
     apt-get -y install \
+        git \
         nodejs \
         npm && \
     ln -s /usr/bin/nodejs /usr/bin/node && \
