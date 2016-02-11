@@ -25,8 +25,8 @@ Non root
 ## Alias for produtivity
 
 ```
-$ wget -O /usr/local/bin/fet https://raw.githubusercontent.com/NicolasPio/frontend-tools/master/fet.sh
-# chmod +x /usrlocal/bin/fet
+# wget -O /usr/local/bin/fet https://raw.githubusercontent.com/NicolasPio/frontend-tools/master/fet.sh
+# chmod +x /usr/local/bin/fet
 ```
 
 __Usage example__
